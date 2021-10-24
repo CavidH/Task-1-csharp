@@ -23,7 +23,7 @@ namespace Task_1
             #endregion
            
 
-            /**
+         
             #region task 2 Verilmiş düzbucaqlı şkafın hər hansı bir qapıdan keçib-keçməyəcəyini  tapan algoritm yazın
 
             double a = 2.1;
@@ -43,7 +43,7 @@ namespace Task_1
 
 
             #endregion
- **/
+ 
         }
     }
 }
