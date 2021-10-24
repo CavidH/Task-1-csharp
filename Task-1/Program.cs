@@ -250,7 +250,7 @@ namespace Task_1
 
             
             
-            **/
+          
             #region Task-10 verilmis ededin menfi ve ya musbet oldugun goster
 
             int g = 25;
@@ -270,7 +270,23 @@ namespace Task_1
 
 
             #endregion
+  **/
+            #region Task-11 ededin 3 ve 7 ye eyni and bolunduyun ve ya bolumediyin yoxlayin
+
+            int bolunen = 321;
+            if (bolunen % 7 == 0 && bolunen % 3 == 0)
+            {
+                Console.WriteLine("eded 3 ve 7 ye eyni anda bolunur");
+            }
+            else
+            {
+                Console.WriteLine("eded 3 ve 7 ye eyni anda bolunmur");
+            }
+
+
+            #endregion
 
         }
+        
     }
 }
