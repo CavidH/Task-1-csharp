@@ -128,7 +128,7 @@ namespace Task_1
             #endregion
            
 
-            #region Task-5 Number array-in ən böyük elementini tapın.
+            #region Task-6 Number array-in ən böyük elementini tapın.
 
             int[] numberarr ={
                 25, 2, 4, 5, 34, 54, 23, 43, 23, 43, 23,
@@ -149,7 +149,7 @@ namespace Task_1
             #endregion
  **/
 
-            #region Task-6 Number array-ini kiçikdən böyüyə doğru düzün.
+            #region Task-7 Number array-ini kiçikdən böyüyə doğru düzün.
 
             int[] numbers =
                 {16, 2, 4, 5, 45, 45, 78, 85, 2, 3, 1, 4, 5, 6, 8, 7, 23, 96, -98, 9, 12, -23, -74, 523, 63};
