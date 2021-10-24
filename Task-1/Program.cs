@@ -8,7 +8,7 @@ namespace Task_1
         static void Main(string[] args)
         {
             /**
-                        /**
+         
             
                         #region task 1 Verilmiş 4 ədəddən tək olanlarının cəmini tapın.
             
@@ -199,9 +199,9 @@ namespace Task_1
             
             
                         #endregion
-             **/
+         
 
-            #region Task-9 verilmis massivde   neche  eded oz indeksinin quvetidi
+                        #region Task-9 verilmis massivde   neche  eded oz indeksinin quvetidi
 
             int countt = 0;
             int ustu_n = 1;
@@ -247,6 +247,30 @@ namespace Task_1
 
 
             #endregion
+
+            
+            
+            **/
+            #region Task-10 verilmis ededin menfi ve ya musbet oldugun goster
+
+            int g = 25;
+            if (g==0)
+            {
+                Console.WriteLine("eded 0 a beraberdir");
+            }
+
+            if (g>0)
+            {
+                Console.WriteLine("eded musbetdir ");
+            }
+            else
+            {
+                Console.WriteLine("eded menfidir");
+            }
+
+
+            #endregion
+
         }
     }
 }
