@@ -126,7 +126,7 @@ namespace Task_1
             Console.WriteLine(advarmi);
 
             #endregion
-            **/
+           
 
             #region Task-5 Number array-in ən böyük elementini tapın.
 
@@ -147,7 +147,31 @@ namespace Task_1
 
 
             #endregion
+ **/
 
+            #region Task-6 Number array-ini kiçikdən böyüyə doğru düzün.
+
+            int[] numbers =
+                {16, 2, 4, 5, 45, 45, 78, 85, 2, 3, 1, 4, 5, 6, 8, 7, 23, 96, -98, 9, 12, -23, -74, 523, 63};
+            int bn = 0;
+            for (int i = 0; i <= numbers.Length - 1; i++)
+            {
+                for (int c = i + 1; c < numbers.Length; c++)
+                {
+                    if (numbers[i] > numbers[c])
+                    {
+                        bn = numbers[i];
+                        numbers[i] = numbers[c];
+                        numbers[c] = bn;
+                    }
+                }
+            }
+
+            foreach (int VARIABLE in numbers)
+            {
+                Console.Write(VARIABLE + ",");
+            }
+            #endregion
         }
     }
 }
