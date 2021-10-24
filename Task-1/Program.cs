@@ -92,7 +92,7 @@ namespace Task_1
                         }
             
                         #endregion
-                         **/
+                       
 
             #region Task-4 Verilmiş n tam ədədinin neçə mərtəbəli olduğunu tapın.
 
@@ -105,6 +105,25 @@ namespace Task_1
             }
 
             Console.WriteLine(reqemsayi);
+
+            #endregion
+              **/
+
+            #region Task-5 String array və string qəbul edən bir algoritm yazın, əgər string array-də varsa true, yoxdusa false yazdırsın.
+
+            string[] adlar = {"cavid", "togrul", "hezret", "murad", "asim"};
+            string ad = "murad";
+            bool advarmi = false;
+            for (int i = 0; i < adlar.Length; i++)
+            {
+                if (adlar[i] == ad)
+                {
+                    advarmi = true;
+                    break;
+                }
+            }
+
+            Console.WriteLine(advarmi);
 
             #endregion
         }
