@@ -107,7 +107,7 @@ namespace Task_1
             Console.WriteLine(reqemsayi);
 
             #endregion
-              **/
+              
 
             #region Task-5 String array və string qəbul edən bir algoritm yazın, əgər string array-də varsa true, yoxdusa false yazdırsın.
 
@@ -126,6 +126,28 @@ namespace Task_1
             Console.WriteLine(advarmi);
 
             #endregion
+            **/
+
+            #region Task-5 Number array-in ən böyük elementini tapın.
+
+            int[] numberarr ={
+                25, 2, 4, 5, 34, 54, 23, 43, 23, 43, 23,
+                54, 67, 54, 5, 4,516, 3, 98, 76, 56, 76, 45, 37, 84, 9, 3, 102
+            };
+            int enboyuk = numberarr[1];
+            for (int i = 0; i < numberarr.Length; i++)
+            {
+                if (numberarr[i] > enboyuk)
+                {
+                    enboyuk = numberarr[i];
+                }
+            }
+
+            Console.WriteLine(enboyuk);
+
+
+            #endregion
+
         }
     }
 }
