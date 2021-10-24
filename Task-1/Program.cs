@@ -270,8 +270,7 @@ namespace Task_1
 
 
             #endregion
-  **/
-            #region Task-11 ededin 3 ve 7 ye eyni and bolunduyun ve ya bolumediyin yoxlayin
+    #region Task-11 ededin 3 ve 7 ye eyni and bolunduyun ve ya bolumediyin yoxlayin
 
             int bolunen = 321;
             if (bolunen % 7 == 0 && bolunen % 3 == 0)
@@ -285,8 +284,39 @@ namespace Task_1
 
 
             #endregion
+  **/
 
+            #region Task 12 3 ededin en boyuknu tap
+
+            int eded1 = 25;
+            int eded2 = 144;
+            int eded3 = 242;
+
+            if (eded1 > eded2)
+            {
+                if (eded1 > eded3)
+                {
+                    Console.WriteLine("en boyuk eded :" + eded1);
+                }
+                else
+                {
+                    Console.WriteLine("en boyuk eded :" + eded3);
+
+                }
+            }
+            else if (eded2 > eded3)
+            {
+                Console.WriteLine("en boyuk eded :" + eded2);
+
+            }
+            else
+            {
+                Console.WriteLine("en boyuk eded :" + eded3);
+
+            }
+
+            #endregion
         }
-        
+
     }
 }
