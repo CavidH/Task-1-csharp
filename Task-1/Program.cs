@@ -41,8 +41,6 @@ namespace Task_1
 
             #endregion
 
-
-
             #region task 2 Verilmiş düzbucaqlı şkafın hər hansı bir qapıdan keçib-keçməyəcəyini  tapan algoritm yazın
 
             double a = 2.1;
@@ -63,10 +61,11 @@ namespace Task_1
 
             #endregion
 
+            #region task-3 Verilmiş n tam ədədinin sadə və ya mürəkkəb ədəd olduğunu tapın. eded sadedimi?
 
-            #region task-3 Verilmiş n tam ədədinin sadə və ya mürəkkəb ədəd olduğunu tapın
 
-            int eded = 97;
+            int eded = 223;
+            Boolean sadedimi = true;
             if (eded < 2)
             {
                 Console.WriteLine("eded ne sade nede murebekdir");
@@ -74,7 +73,7 @@ namespace Task_1
 
             if (eded == 2)
             {
-                Console.WriteLine(eded + "- sade ededir");
+                Console.WriteLine("2- sade ededir");
             }
             else
             {
@@ -82,19 +81,19 @@ namespace Task_1
                 {
                     if (eded % i == 0)
                     {
-                        Console.WriteLine("murekkeb");
-                        return;
+                        sadedimi = false;
+
+
 
                     }
 
                 }
 
-                Console.WriteLine("sade");
+                Console.WriteLine(sadedimi);
 
             }
 
             #endregion
-
 
             #region Task-4 Verilmiş n tam ədədinin neçə mərtəbəli olduğunu tapın.
 
@@ -109,7 +108,6 @@ namespace Task_1
             Console.WriteLine(reqemsayi);
 
             #endregion
-
 
             #region Task-5 String array və string qəbul edən bir algoritm yazın, əgər string array-də varsa true, yoxdusa false yazdırsın.
 
@@ -128,7 +126,6 @@ namespace Task_1
             Console.WriteLine(advarmi);
 
             #endregion
-
 
             #region Task-6 Number array-in ən böyük elementini tapın.
 
@@ -150,7 +147,6 @@ namespace Task_1
 
 
             #endregion
-
 
             #region Task-7 Number array-ini kiçikdən böyüyə doğru düzün.
 
@@ -200,7 +196,6 @@ namespace Task_1
 
             #endregion
 
-
             #region Task-9 verilmis massivde   neche  eded oz indeksinin quvetidi
 
             int countt = 0;
@@ -248,9 +243,6 @@ namespace Task_1
 
             #endregion
 
-
-
-
             #region Task-10 verilmis ededin menfi ve ya musbet oldugun goster
 
             int g = 25;
@@ -285,7 +277,6 @@ namespace Task_1
 
 
             #endregion
-
 
             #region Task 12 3 ededin en boyuknu tap
 
